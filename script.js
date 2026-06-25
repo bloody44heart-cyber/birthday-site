@@ -1,4 +1,4 @@
-const targetDate = new Date("2026-06-04T00:00:00+03:30");
+const targetDate = new Date("2026-01-04T00:00:00+03:30");
 
 const countdownPage = document.querySelector("#countdownPage");
 const birthdayPage = document.querySelector("#birthdayPage");
