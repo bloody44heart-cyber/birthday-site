@@ -9,18 +9,23 @@
 </head>
 
 <body>
-  <main class="card">
-    <h1>🎉حسن ژوون تولدت 17 سالگیت مبارک ! 🎂</h1>
+  <!-- این صفحه قبل از تولد دیده می‌شود -->
+  <section id="countdownPage" class="card">
+    <h1>🎁نیناش نانای نای🎁</h1>
+    <p>تا 17 سالگی خوشگلم مونده:</p>
+    <p id="timer">در حال محاسبه...</p>
+  </section>
+
+  <!-- این صفحه در روز تولد دیده می‌شود -->
+  <main id="birthdayPage" class="card hidden">
+    <h1>🎉 تولدت 17 سالگیت مبارک حسن ژوون! 🎂</h1>
 
     <p class="intro">
-      آرزو میکنم زندگیت پر از اتفاق‌های خوب، خنده و موفقیت باشه.
+      ❤️آرزو میکنم زندگیت پر از اتفاق‌های خوب، خنده و موفقیت باشه❤️.
     </p>
 
-    <img
-      class="main-photo"
-      src="images/photo1.jpg"
-      alt="خاطره اول"
-    ><section class="gallery">
+    <img class="main-photo" src="images/photo1.jpg" alt="عکس خاطره‌انگیز">
+    <section class="gallery">
   <img src="images/photo2.jpg" alt="خاطره دوم">
   <img src="images/photo3.jpg" alt="خاطره سوم">
 </section>
@@ -28,10 +33,11 @@
     <button id="surpriseButton">dont toch me😆!</button>
 
     <p id="secretMessage" class="hidden">
-    ❤️ بهترین دوستی هستی که دارم خوشگلمم❤️
+      ❤️ بهترین دوستی هستی که دارم خوشگلم ❤️
     </p>
   </main>
 
   <script src="script.js"></script>
+</body>
 </body>
 </html>
